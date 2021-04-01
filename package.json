@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve & nodemon server/index.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -19,7 +19,10 @@
     "@vue/cli-service": "~5.0.0-alpha.8",
     "@vue/compiler-sfc": "^3.0.4",
     "eslint": "^7.20.0",
-    "eslint-plugin-vue": "^7.2.0"
+    "eslint-plugin-vue": "^7.2.0",
+    "fs-extra": "^9.1.0",
+    "multiparty": "^4.2.2",
+    "nodemon": "^2.0.7"
   },
   "eslintConfig": {
     "root": true,
